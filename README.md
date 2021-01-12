@@ -66,6 +66,8 @@ ethminer --help
 Check our [samples](docs/POOL_EXAMPLES_ETH.md) to see how to connect to different pools.
 
 ## Build
+Pls install cuda 10 first, refer below
+https://developer.nvidia.com/zh-cn/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal
 
 ### Continuous Integration and development builds
 
