@@ -70,9 +70,13 @@ Pls install cuda 10 first, refer below
 https://developer.nvidia.com/zh-cn/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal
 
 ## tips
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 10
+if found below error during build
+> #error -- unsupported GNU version! gcc versions later than 6 are not supported
+
+Pls take below steps
+> sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 10
 and
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 10
+> sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 10
 
 ### Continuous Integration and development builds
 
