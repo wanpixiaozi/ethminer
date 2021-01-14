@@ -75,6 +75,7 @@ if found below error during build
 
 Pls take below steps
 > sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 10
+
 and
 > sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 10
 
